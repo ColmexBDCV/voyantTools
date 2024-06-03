@@ -119,7 +119,7 @@ When saving the text, you must consider three essential things:
 #### On Linux:
 1. Open Gedit
 
-   ![save_file](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0815e86f-1cfb-4946-865e-0ff4a0da8a8a)
+![save_file](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0815e86f-1cfb-4946-865e-0ff4a0da8a8a)
    
 3. After pasting the text, when saving, select 'UTF-8' in the 'Character Encoding' window
 
@@ -143,7 +143,7 @@ Finally, there is the option we will use in this tutorial, where you can directl
 
 To load the materials, click on the icon that says "Load," open your file explorer, and, while holding down the 'Shift' key, select all the files you want to analyze.
 
-![Captura de pantalla 2024-06-03 132706]([https://github.com/ColmexBDCV/voyantTools/assets/10733054/0823f096-2b2f-4b7c-a7ea-c6b20f1e5f9d](https://github.com/ColmexBDCV/voyantTools/assets/10733054/87a0bb5b-a4b4-4adf-99ea-7a3879e8138f))
+![Captura de pantalla 2024-06-03 132706](https://github.com/ColmexBDCV/voyantTools/assets/10733054/87a0bb5b-a4b4-4adf-99ea-7a3879e8138f)
 
 ## Exploring the corpus
 
@@ -385,7 +385,7 @@ This leads to a page where the fields are separated by a tab:
 
 Select all data (Ctrl+A or Ctrl+E); copy it (Ctrl+C) and paste it into a spreadsheet (Ctrl+V). If this does not work, save the data as a .txt file in a simple text editor (don’t forget the UTF-8 encoding!) and then import the data into your spreadsheet. In Excel, this is done in the "Data" tab and then "From Text File."
 
-<img width="356" alt="Import from text file" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/7dcee87a-953e-4de5-9591-0d345679e370">
+<img width="477" alt="Import from text file" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/7dcee87a-953e-4de5-9591-0d345679e370">
 
 
 ## Activity Answers
