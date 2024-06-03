@@ -100,20 +100,28 @@ When saving the text, you must consider three essential things:
 
 #### On Windows:
 1. Open Notepad
+
+![save_notepad](https://github.com/ColmexBDCV/voyantTools/assets/10733054/575fa075-ec0f-491b-b70f-c33af554bd41)
+
 2. After pasting or writing the text, click on 'Save As'
 3. In the 'Encoding' window, select 'UTF-8'
 4. Choose a file name and save it as .txt (Torresblanca, 2014)
 
 #### On Mac:
 1. Open TextEdit
+
+![guardar-en-utf8-mac](https://github.com/ColmexBDCV/voyantTools/assets/10733054/d0aa305c-b9ca-4f94-a948-aa83138e17ce)
+
 2. Paste the text you want to save
 3. Convert to plain text (option in the 'Format' menu)
 4. When saving, select the encoding 'UTF-8' (Creative Corner, 2016)
 
 #### On Linux:
 1. Open Gedit
+
+   ![save_file](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0815e86f-1cfb-4946-865e-0ff4a0da8a8a)
    
-2. After pasting the text, when saving, select 'UTF-8' in the 'Character Encoding' window
+3. After pasting the text, when saving, select 'UTF-8' in the 'Character Encoding' window
 
 - The second is that your file name should not contain accents or spaces to ensure it can be opened on other operating systems
 
@@ -129,26 +137,41 @@ For this tutorial, we have named the files with the month, day, year, and order 
 
 ## Loading the corpus
 
-On the Voyant Tools homepage, you will find four simple options for loading texts. The first two options are in the white box. In this box, you can directly paste a text that you have copied from somewhere; or, paste web addresses – separated by commas – of the sit![save_file](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0815e86f-1cfb-4946-865e-0ff4a0da8a8a)
-es where the texts you want to analyze are located. A third option is to click on "Open" and select one of the two corpora that Voyant has preloaded (the works of Shakespeare or the novels of Austen: both in English).
+On the Voyant Tools homepage, you will find four simple options for loading texts. The first two options are in the white box. In this box, you can directly paste a text that you have copied from somewhere; or, paste web addresses – separated by commas – of the sites where the texts you want to analyze are located. A third option is to click on "Open" and select one of the two corpora that Voyant has preloaded (the works of Shakespeare or the novels of Austen: both in English).
 
 Finally, there is the option we will use in this tutorial, where you can directly load the documents you have on your computer. In this case, we will upload the complete corpus of presidential speeches.
 
 To load the materials, click on the icon that says "Load," open your file explorer, and, while holding down the 'Shift' key, select all the files you want to analyze.
+
+![Captura de pantalla 2024-06-03 132706]([https://github.com/ColmexBDCV/voyantTools/assets/10733054/0823f096-2b2f-4b7c-a7ea-c6b20f1e5f9d](https://github.com/ColmexBDCV/voyantTools/assets/10733054/87a0bb5b-a4b4-4adf-99ea-7a3879e8138f))
 
 ## Exploring the corpus
 
 Once all the files are loaded, you will reach the 'interface' ('skin') that has five default tools. Here is a brief explanation of each of these tools:
 
 ### Cirrus: word cloud showing the most frequent terms
+
+![Captura de pantalla 2024-06-03 132706](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0823f096-2b2f-4b7c-a7ea-c6b20f1e5f9d)
+
 ### Reader: space for reviewing and reading the complete texts with a bar graph indicating the amount of text each document has
+![Captura de pantalla 2024-06-03 132732](https://github.com/ColmexBDCV/voyantTools/assets/10733054/bac556a1-dff3-4a85-a648-5f205cd08b9b)
+
+
 ### Trends: distribution graph showing terms throughout the corpus (or within a document when only one is loaded)
+![Captura de pantalla 2024-06-03 133050](https://github.com/ColmexBDCV/voyantTools/assets/10733054/3b056227-e6a1-455f-bc7c-2ea1b0c93330)
+
+
 ### Summary: provides an overview of certain textual statistics of the current corpus
+![Captura de pantalla 2024-06-03 133122](https://github.com/ColmexBDCV/voyantTools/assets/10733054/5a2de5ab-da4f-4bb7-b01a-5ccec25a91fa)
+
+
 ### Contexts: concordance showing each occurrence of a keyword with a bit of surrounding context
+![Captura de pantalla 2024-06-03 133136](https://github.com/ColmexBDCV/voyantTools/assets/10733054/c0d07d36-0ec8-42a7-82d2-48cc33062cbd)
 
 ## Document summary: basic characteristics of your set of texts
 
 One of the most informative windows in Voyant is the summary. Here we get a bird's-eye view of some statistics about our corpus, so it serves as a good starting point. In the following sections, you will get an explanation of the different measures that appear in this window.
+
 
 ### Number of texts, words, and unique words
 
@@ -233,9 +256,20 @@ Importance is not an intrinsic value and will always depend on our interests. Ju
 2. Which ones would you eliminate and why?
 
 Voyant already has a stop word list loaded for Spanish; however, we can edit it as follows:  
-1. Place our cursor at the top right of the Cirrus window and click on the icon that looks like a switch.  
+1. Place our cursor at the top right of the Cirrus window and click on the icon that looks like a switch.
+
+![Captura de pantalla 2024-06-03 134930](https://github.com/ColmexBDCV/voyantTools/assets/10733054/06c8083c-f11f-4848-ad76-1a26b39a6c8b)
+
+
 2. A window with different options will appear, we select the first one "Edit List."  
+
+![Captura de pantalla 2024-06-03 134959](https://github.com/ColmexBDCV/voyantTools/assets/10733054/4dc5673d-e7db-4c2b-b992-f3dbcf2fc33a)
+
+
 3. We add the "stop" words, always separated by a newline (Enter key).  
+
+![Captura de pantalla 2024-06-03 135035](https://github.com/ColmexBDCV/voyantTools/assets/10733054/fda539bd-099b-4ac9-9a73-12f28ea38c1d)
+
 4. Once we have added the words we want to filter, we click on "Save."
 
 *Warning: by default, a box that says "Apply to all" is selected; if this box is left selected, the word filtering will affect the metrics of all other tools. It is very important to document your decisions. A good practice is to save the stop word list in a text file (.txt). For this tutorial, we have created a [list of words to filter](https://github.com/ColmexBDCV/voyantTools/blob/main/stop_words.txt), and you can use it if you wish, just remember that this will affect your results.*
@@ -268,7 +302,8 @@ What is the advantage of this? If we had a corpus in which the word corazón had
 Let’s see how this works in Voyant Tools:
 
 In the Cirrus section (the word cloud), click on 'Terms'. This will open a table that by default has three columns: Terms (with the list of words in the documents, excluding the filtered ones), Count (with the 'gross frequency' of each term), and Trend (with a graph of the distribution of a word considering its relative frequency). To get information about the relative frequency of a term, in the column names bar, on the far right, click on the triangle that offers more options and in 'Columns' select the 'Relative' option as shown in the image below:
-Relative frequency
+
+<img width="325" alt="Relative frequency" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/b1138bcd-bd0b-45bb-afa6-d2698c7c2869">
 Relative frequency
 
 If you sort the columns in descending order as you would in a spreadsheet program, you will see that the order of gross frequency (‘Count’) and relative frequency (‘Relative’) is the same. What is this measure useful for? For when we compare different corpora. A corpus is a set of texts with something in common. In this case, Voyant is interpreting all the speeches as a single corpus. If we wanted each country to be a different corpus, we would have to save our text in a table, in HTML or XML, where the metadata is expressed in columns (in the case of the table) or in tags (in the case of HTML or XML).
@@ -279,6 +314,9 @@ Although relative frequency helps us understand the distribution of our corpus, 
 
 This measure gives us an idea of the probability distribution of a variable without having to make its graphical representation. It is calculated by observing the deviations of a frequency from the mean, to determine whether those occurring to the right of the mean (negative skewness) are greater than those to the left (positive skewness). The closer to zero the degree of statistical skewness, the more regular the distribution of that term (i.e., it occurs with a very similar mean in all documents). What is not very intuitive is that if a term has statistical skewness with positive numbers, it means that term is below the mean, and the larger the number, the more skewed the term is (i.e., it occurs a lot in one document but hardly at all in the corpus). Negative numbers, on the other hand, indicate that the term tends to be above the mean.
 
+![Negative_and_positive_skew_diagrams_(English) svg](https://github.com/ColmexBDCV/voyantTools/assets/10733054/3fd511b5-ec5e-4f66-8ffe-b54940488070)
+
+
 To obtain this measure in Voyant, we need to repeat the steps we did to get the relative frequency, but this time select "Skew." This measure allows us to observe then, that the word "crisis," for example, despite having a high frequency, not only does not have a constant frequency throughout the corpus, but it tends to be below the mean because its statistical skewness is positive (1.9).
 
 ### Differentiated words
@@ -288,6 +326,8 @@ As you might suspect, the most interesting information is generally not found wi
 In Voyant, tf-idf is calculated as follows:
 
 Gross Frequency (tf) / Number of Words (N) * log10 (Number of Documents / Number of times the term appears in the documents).
+
+![tf_idf](https://github.com/ColmexBDCV/voyantTools/assets/10733054/9dd2fcae-562b-46f5-bf52-f8e17405deeb)
 
 ### Activity 8
 
@@ -316,7 +356,8 @@ The table we see has the following default columns:
 
 The Position column can be added, indicating the place in the document where the queried term is found:
 
-**Add position column**
+<img width="477" alt="Add position column" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/78d2f71f-eb59-4eec-92dc-02e3d13b6424">
+Add position column
 
 Voyant allows the use of wildcards to search for variations of a word. Here are some combinations:
 
@@ -339,7 +380,13 @@ To export the data, click on the box with an arrow that appears when you hover o
 
 This leads to a page where the fields are separated by a tab:
 
+
+![Separated by a tab](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0c1b2523-02f3-4eec-9b22-780e4a99c20b)
+
 Select all data (Ctrl+A or Ctrl+E); copy it (Ctrl+C) and paste it into a spreadsheet (Ctrl+V). If this does not work, save the data as a .txt file in a simple text editor (don’t forget the UTF-8 encoding!) and then import the data into your spreadsheet. In Excel, this is done in the "Data" tab and then "From Text File."
+
+<img width="356" alt="Import from text file" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/7dcee87a-953e-4de5-9591-0d345679e370">
+
 
 ## Activity Answers
 
