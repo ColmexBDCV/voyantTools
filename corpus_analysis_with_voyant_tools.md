@@ -78,9 +78,9 @@ Although VoyantTools can work with many formats (HTML, XML, PDF, RTF, and MS Wor
 
 ### 1. Search for Texts
 
-The first thing you need to do is search for the information that interests you. For this tutorial, Alberto Santiago and I prepared a corpus of speeches of Obama, between 2016 and 2017. This corpus has been released under a Creative Commons CC BY 4.0 license and you can use it as long as you cite the source as follows:
+The first thing you need to do is search for the information that interests you. For this tutorial, we have prepared a corpus of President George Washington's Annual Messages to Congress. This corpus has been released under a Creative Commons CC BY 4.0 license and you can use it as long as you cite the source as follows:
 
-CISNEROS, J., & Martinez, A. (2024). presidential-speeches-GW_v1 (Versión v1). Zenodo https://doi.org/10.5281/zenodo.2547051.
+Cisneros, J., & Martinez, A. (2024). presidential-speeches-GW_v1 (Versión v1). Zenodo https://doi.org/10.5281/zenodo.2547051.
 
 ### 2. Copy to Plain Text Editor
 
@@ -112,6 +112,7 @@ When saving the text, you must consider three essential things:
 
 #### On Linux:
 1. Open Gedit
+   
 2. After pasting the text, when saving, select 'UTF-8' in the 'Character Encoding' window
 
 - The second is that your file name should not contain accents or spaces to ensure it can be opened on other operating systems
@@ -128,7 +129,8 @@ For this tutorial, we have named the files with the month, day, year, and order 
 
 ## Loading the corpus
 
-On the Voyant Tools homepage, you will find four simple options for loading texts. The first two options are in the white box. In this box, you can directly paste a text that you have copied from somewhere; or, paste web addresses – separated by commas – of the sites where the texts you want to analyze are located. A third option is to click on "Open" and select one of the two corpora that Voyant has preloaded (the works of Shakespeare or the novels of Austen: both in English).
+On the Voyant Tools homepage, you will find four simple options for loading texts. The first two options are in the white box. In this box, you can directly paste a text that you have copied from somewhere; or, paste web addresses – separated by commas – of the sit![save_file](https://github.com/ColmexBDCV/voyantTools/assets/10733054/0815e86f-1cfb-4946-865e-0ff4a0da8a8a)
+es where the texts you want to analyze are located. A third option is to click on "Open" and select one of the two corpora that Voyant has preloaded (the works of Shakespeare or the novels of Austen: both in English).
 
 Finally, there is the option we will use in this tutorial, where you can directly load the documents you have on your computer. In this case, we will upload the complete corpus of presidential speeches.
 
