@@ -193,7 +193,8 @@ If our corpus consisted of two documents; one that said: "I'm hungry"; and anoth
 
 The second thing we see is the "document length" section. Here is what it shows:
 
-> Longest: november_19_1794_sixth (2926); december_7_1796_eighth (2864); november_6_1792_fourth (2345); october_25_1791_third (2267); december_8_1795_seventh (1977) 
+> Longest: november_19_1794_sixth (2926); december_7_1796_eighth (2864); november_6_1792_fourth (2345); october_25_1791_third (2267); december_8_1795_seventh (1977)
+
 > Shortest:  january_8_1790_first (848); december_8_1790_second (1400); april_30_1789_first_Inaug… (1433); december_3_1793_fifth (1833); december_8_1795_seventh (1977)
 
 ### Activity 2
@@ -218,6 +219,7 @@ Vocabulary density is measured by dividing the number of unique words by the tot
 2. Read the lexical density data of the documents in our corpus, what do they tell you?
 
 > Highest:  january_8_1790_first (0.462); december_3_1793_fifth (0.436); april_30_1789_first_Inaug… (0.417); december_8_1790_second (0.409); december_8_1795_seventh (0.398) 
+
 > Lowest: december_7_1796_eighth (0.338); november_6_1792_fourth (0.340); october_25_1791_third (0.343); november_19_1794_sixth (0.375); december_8_1795_seventh (0.398)
 
 3. Compare them with the information about their length, what do you notice?
@@ -332,15 +334,15 @@ Gross Frequency (tf) / Number of Words (N) * log10 (Number of Documents / Number
 
 Look at the differentiated words (compared to the rest of the corpus) of each document and note what hypotheses you can derive from them.
 
-1.- april_30_1789_first_Inaug…: voice (2), station (2), opportunities (2), immutable (2), humble (2).
-2.- december_3_1793_fifth: theunited (4), jurisdiction (3), warmest (2), unitedstates (2), term (2).
-3.- december_7_1796_eighth: appointed (5), commissioner (4), britain (5), naval (3), indies (3).
-4.- december_8_1790_second: secretary (2), reward (2), convention (2), consuls (2), belongs (2).
-5.- december_8_1795_seventh: review (3), foundation (2), emperor (2), adjusted (2), treaty (4).
-6.- january_8_1790_first: end (3), uniform (2), encouragement (2), render (3), teaching (1).
-7.- november_19_1794_sixth: pennsylvania (8), inspector (4), counties (4), let (5), insurrection (5).
-8.- november_6_1792_fourth: newspapers (6), cent (5), transmission (3), postage (3), case (4).
-9.- october_25_1791_third: immediate (4), subscriptions (3), lands (4), possible (3), vacant (2).
+1. april_30_1789_first_Inaug…: voice (2), station (2), opportunities (2), immutable (2), humble (2).
+2. december_3_1793_fifth: theunited (4), jurisdiction (3), warmest (2), unitedstates (2), term (2).
+3. december_7_1796_eighth: appointed (5), commissioner (4), britain (5), naval (3), indies (3).
+4. december_8_1790_second: secretary (2), reward (2), convention (2), consuls (2), belongs (2).
+5. december_8_1795_seventh: review (3), foundation (2), emperor (2), adjusted (2), treaty (4).
+6. january_8_1790_first: end (3), uniform (2), encouragement (2), render (3), teaching (1).
+7. november_19_1794_sixth: pennsylvania (8), inspector (4), counties (4), let (5), insurrection (5).
+8. november_6_1792_fourth: newspapers (6), cent (5), transmission (3), postage (3), case (4).
+9. october_25_1791_third: immediate (4), subscriptions (3), lands (4), possible (3), vacant (2).
 
 ### Words in context
 
