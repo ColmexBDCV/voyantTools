@@ -303,8 +303,7 @@ Let’s see how this works in Voyant Tools:
 
 In the Cirrus section (the word cloud), click on 'Terms'. This will open a table that by default has three columns: Terms (with the list of words in the documents, excluding the filtered ones), Count (with the 'gross frequency' of each term), and Trend (with a graph of the distribution of a word considering its relative frequency). To get information about the relative frequency of a term, in the column names bar, on the far right, click on the triangle that offers more options and in 'Columns' select the 'Relative' option as shown in the image below:
 
-<img width="325" alt="Relative frequency" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/b1138bcd-bd0b-45bb-afa6-d2698c7c2869">
-Relative frequency
+![Relative frequency](https://github.com/ColmexBDCV/voyantTools/assets/10733054/b1138bcd-bd0b-45bb-afa6-d2698c7c2869)
 
 If you sort the columns in descending order as you would in a spreadsheet program, you will see that the order of gross frequency (‘Count’) and relative frequency (‘Relative’) is the same. What is this measure useful for? For when we compare different corpora. A corpus is a set of texts with something in common. In this case, Voyant is interpreting all the speeches as a single corpus. If we wanted each country to be a different corpus, we would have to save our text in a table, in HTML or XML, where the metadata is expressed in columns (in the case of the table) or in tags (in the case of HTML or XML).
 
@@ -356,8 +355,7 @@ The table we see has the following default columns:
 
 The Position column can be added, indicating the place in the document where the queried term is found:
 
-<img width="477" alt="Add position column" src="https://github.com/ColmexBDCV/voyantTools/assets/10733054/78d2f71f-eb59-4eec-92dc-02e3d13b6424">
-Add position column
+![Add position column](https://github.com/ColmexBDCV/voyantTools/assets/10733054/78d2f71f-eb59-4eec-92dc-02e3d13b6424)
 
 Voyant allows the use of wildcards to search for variations of a word. Here are some combinations:
 
